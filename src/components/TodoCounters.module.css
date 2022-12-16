@@ -1,0 +1,27 @@
+.todoCounters {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+
+.todoCounters p {
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.todoCounters p:nth-child(odd) {
+  color: var(--blue-default);
+}
+
+.todoCounters p:nth-child(even) {
+  color: var(--purple-default);
+}
+
+.todoCounters p span {
+  background: #333;
+  color: #d9d9d9;
+  padding: 0.125rem 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+}

@@ -1,0 +1,15 @@
+.emptyTodoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+  border-top: 1px solid var(--gray-400);
+}
+
+.emptyTodoList p {
+  line-height: 1.4;
+}
+
+.emptyTodoList img {
+  margin-bottom: 1rem;
+}
